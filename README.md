@@ -7,7 +7,7 @@ when we delete any of the "Attribute Sets" It will redirect to the "404 page not
 So, Fix that issue I have create this module "Ktpl_OverrideAttributeSet" and Override this controller
 Magento\Catalog\Controller\Adminhtml\Product\Set\Delete.php
 
-File changes:
+Changes for fix the issue:
 HttpGetActionInterface Instead of HttpPostActionInterface
 
 Done.
